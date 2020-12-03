@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Whateva from './components/Whateva';
+import Dictaphone1 from './components/Dictaphone1';
+import Voice from './components/Voice';
+import Modals from './components/Modals'
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1>SPEECH TO TEXT</h1>
+    
+     <Dictaphone1/>
+  
+    
     </div>
   );
 }
